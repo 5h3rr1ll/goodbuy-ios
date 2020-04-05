@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		925C8676243A478C00183077 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925C8675243A478C00183077 /* AppDelegate.swift */; };
+		925C8678243A478C00183077 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925C8677243A478C00183077 /* SceneDelegate.swift */; };
+		925C867A243A478C00183077 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925C8679243A478C00183077 /* ViewController.swift */; };
+		925C867D243A478C00183077 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 925C867B243A478C00183077 /* Main.storyboard */; };
+		925C8680243A478C00183077 /* goodbuy_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 925C867E243A478C00183077 /* goodbuy_ios.xcdatamodeld */; };
+		925C8682243A478E00183077 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 925C8681243A478E00183077 /* Assets.xcassets */; };
+		925C8685243A478E00183077 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 925C8683243A478E00183077 /* LaunchScreen.storyboard */; };
+		925C8690243A478E00183077 /* goodbuy_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925C868F243A478E00183077 /* goodbuy_iosTests.swift */; };
+		925C869B243A478E00183077 /* goodbuy_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925C869A243A478E00183077 /* goodbuy_iosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		925C868C243A478E00183077 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 925C866A243A478C00183077 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 925C8671243A478C00183077;
+			remoteInfo = "goodbuy-ios";
+		};
+		925C8697243A478E00183077 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 925C866A243A478C00183077 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 925C8671243A478C00183077;
+			remoteInfo = "goodbuy-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		925C8672243A478C00183077 /* goodbuy-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "goodbuy-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		925C8675243A478C00183077 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		925C8677243A478C00183077 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		925C8679243A478C00183077 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		925C867C243A478C00183077 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		925C867F243A478C00183077 /* goodbuy_ios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = goodbuy_ios.xcdatamodel; sourceTree = "<group>"; };
+		925C8681243A478E00183077 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		925C8684243A478E00183077 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		925C8686243A478E00183077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		925C868B243A478E00183077 /* goodbuy-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "goodbuy-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		925C868F243A478E00183077 /* goodbuy_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goodbuy_iosTests.swift; sourceTree = "<group>"; };
+		925C8691243A478E00183077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		925C8696243A478E00183077 /* goodbuy-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "goodbuy-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		925C869A243A478E00183077 /* goodbuy_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goodbuy_iosUITests.swift; sourceTree = "<group>"; };
+		925C869C243A478E00183077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		925C866F243A478C00183077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925C8688243A478E00183077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925C8693243A478E00183077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		925C8669243A478C00183077 = {
+			isa = PBXGroup;
+			children = (
+				925C8674243A478C00183077 /* goodbuy-ios */,
+				925C868E243A478E00183077 /* goodbuy-iosTests */,
+				925C8699243A478E00183077 /* goodbuy-iosUITests */,
+				925C8673243A478C00183077 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		925C8673243A478C00183077 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				925C8672243A478C00183077 /* goodbuy-ios.app */,
+				925C868B243A478E00183077 /* goodbuy-iosTests.xctest */,
+				925C8696243A478E00183077 /* goodbuy-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		925C8674243A478C00183077 /* goodbuy-ios */ = {
+			isa = PBXGroup;
+			children = (
+				925C8675243A478C00183077 /* AppDelegate.swift */,
+				925C8677243A478C00183077 /* SceneDelegate.swift */,
+				925C8679243A478C00183077 /* ViewController.swift */,
+				925C867B243A478C00183077 /* Main.storyboard */,
+				925C8681243A478E00183077 /* Assets.xcassets */,
+				925C8683243A478E00183077 /* LaunchScreen.storyboard */,
+				925C8686243A478E00183077 /* Info.plist */,
+				925C867E243A478C00183077 /* goodbuy_ios.xcdatamodeld */,
+			);
+			path = "goodbuy-ios";
+			sourceTree = "<group>";
+		};
+		925C868E243A478E00183077 /* goodbuy-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				925C868F243A478E00183077 /* goodbuy_iosTests.swift */,
+				925C8691243A478E00183077 /* Info.plist */,
+			);
+			path = "goodbuy-iosTests";
+			sourceTree = "<group>";
+		};
+		925C8699243A478E00183077 /* goodbuy-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				925C869A243A478E00183077 /* goodbuy_iosUITests.swift */,
+				925C869C243A478E00183077 /* Info.plist */,
+			);
+			path = "goodbuy-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		925C8671243A478C00183077 /* goodbuy-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 925C869F243A478E00183077 /* Build configuration list for PBXNativeTarget "goodbuy-ios" */;
+			buildPhases = (
+				925C866E243A478C00183077 /* Sources */,
+				925C866F243A478C00183077 /* Frameworks */,
+				925C8670243A478C00183077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "goodbuy-ios";
+			productName = "goodbuy-ios";
+			productReference = 925C8672243A478C00183077 /* goodbuy-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		925C868A243A478E00183077 /* goodbuy-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 925C86A2243A478E00183077 /* Build configuration list for PBXNativeTarget "goodbuy-iosTests" */;
+			buildPhases = (
+				925C8687243A478E00183077 /* Sources */,
+				925C8688243A478E00183077 /* Frameworks */,
+				925C8689243A478E00183077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				925C868D243A478E00183077 /* PBXTargetDependency */,
+			);
+			name = "goodbuy-iosTests";
+			productName = "goodbuy-iosTests";
+			productReference = 925C868B243A478E00183077 /* goodbuy-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		925C8695243A478E00183077 /* goodbuy-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 925C86A5243A478E00183077 /* Build configuration list for PBXNativeTarget "goodbuy-iosUITests" */;
+			buildPhases = (
+				925C8692243A478E00183077 /* Sources */,
+				925C8693243A478E00183077 /* Frameworks */,
+				925C8694243A478E00183077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				925C8698243A478E00183077 /* PBXTargetDependency */,
+			);
+			name = "goodbuy-iosUITests";
+			productName = "goodbuy-iosUITests";
+			productReference = 925C8696243A478E00183077 /* goodbuy-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		925C866A243A478C00183077 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Anthony Sherrill";
+				TargetAttributes = {
+					925C8671243A478C00183077 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					925C868A243A478E00183077 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 925C8671243A478C00183077;
+					};
+					925C8695243A478E00183077 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 925C8671243A478C00183077;
+					};
+				};
+			};
+			buildConfigurationList = 925C866D243A478C00183077 /* Build configuration list for PBXProject "goodbuy-ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 925C8669243A478C00183077;
+			productRefGroup = 925C8673243A478C00183077 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				925C8671243A478C00183077 /* goodbuy-ios */,
+				925C868A243A478E00183077 /* goodbuy-iosTests */,
+				925C8695243A478E00183077 /* goodbuy-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		925C8670243A478C00183077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925C8685243A478E00183077 /* LaunchScreen.storyboard in Resources */,
+				925C8682243A478E00183077 /* Assets.xcassets in Resources */,
+				925C867D243A478C00183077 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925C8689243A478E00183077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925C8694243A478E00183077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		925C866E243A478C00183077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925C867A243A478C00183077 /* ViewController.swift in Sources */,
+				925C8676243A478C00183077 /* AppDelegate.swift in Sources */,
+				925C8678243A478C00183077 /* SceneDelegate.swift in Sources */,
+				925C8680243A478C00183077 /* goodbuy_ios.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925C8687243A478E00183077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925C8690243A478E00183077 /* goodbuy_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925C8692243A478E00183077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925C869B243A478E00183077 /* goodbuy_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		925C868D243A478E00183077 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 925C8671243A478C00183077 /* goodbuy-ios */;
+			targetProxy = 925C868C243A478E00183077 /* PBXContainerItemProxy */;
+		};
+		925C8698243A478E00183077 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 925C8671243A478C00183077 /* goodbuy-ios */;
+			targetProxy = 925C8697243A478E00183077 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		925C867B243A478C00183077 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				925C867C243A478C00183077 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		925C8683243A478E00183077 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				925C8684243A478E00183077 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		925C869D243A478E00183077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		925C869E243A478E00183077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		925C86A0243A478E00183077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UEK3E6NUG7;
+				INFOPLIST_FILE = "goodbuy-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Goodbuy.goodbuy-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		925C86A1243A478E00183077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UEK3E6NUG7;
+				INFOPLIST_FILE = "goodbuy-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Goodbuy.goodbuy-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		925C86A3243A478E00183077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UEK3E6NUG7;
+				INFOPLIST_FILE = "goodbuy-iosTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Goodbuy.goodbuy-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/goodbuy-ios.app/goodbuy-ios";
+			};
+			name = Debug;
+		};
+		925C86A4243A478E00183077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UEK3E6NUG7;
+				INFOPLIST_FILE = "goodbuy-iosTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Goodbuy.goodbuy-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/goodbuy-ios.app/goodbuy-ios";
+			};
+			name = Release;
+		};
+		925C86A6243A478E00183077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UEK3E6NUG7;
+				INFOPLIST_FILE = "goodbuy-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Goodbuy.goodbuy-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "goodbuy-ios";
+			};
+			name = Debug;
+		};
+		925C86A7243A478E00183077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UEK3E6NUG7;
+				INFOPLIST_FILE = "goodbuy-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Goodbuy.goodbuy-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "goodbuy-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		925C866D243A478C00183077 /* Build configuration list for PBXProject "goodbuy-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925C869D243A478E00183077 /* Debug */,
+				925C869E243A478E00183077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		925C869F243A478E00183077 /* Build configuration list for PBXNativeTarget "goodbuy-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925C86A0243A478E00183077 /* Debug */,
+				925C86A1243A478E00183077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		925C86A2243A478E00183077 /* Build configuration list for PBXNativeTarget "goodbuy-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925C86A3243A478E00183077 /* Debug */,
+				925C86A4243A478E00183077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		925C86A5243A478E00183077 /* Build configuration list for PBXNativeTarget "goodbuy-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925C86A6243A478E00183077 /* Debug */,
+				925C86A7243A478E00183077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		925C867E243A478C00183077 /* goodbuy_ios.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				925C867F243A478C00183077 /* goodbuy_ios.xcdatamodel */,
+			);
+			currentVersion = 925C867F243A478C00183077 /* goodbuy_ios.xcdatamodel */;
+			path = goodbuy_ios.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 925C866A243A478C00183077 /* Project object */;
+}
