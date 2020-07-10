@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-goodbuy-ios/Pods-goodbuy-ios-frameworks.sh
+${PODS_ROOT}/ScanditBarcodeCapture/ScanditBarcodeCapture.framework
+${PODS_ROOT}/ScanditBarcodeCapture/ScanditBarcodeCapture.framework.dSYM
+${PODS_ROOT}/ScanditCaptureCore/ScanditCaptureCore.framework
+${PODS_ROOT}/ScanditCaptureCore/ScanditCaptureCore.framework.dSYM

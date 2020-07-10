@@ -1,0 +1,10 @@
+
+framework module ScanditCaptureCore [extern_c] {
+    umbrella header "ScanditCaptureCore.h"
+
+    export *
+    module * {
+        export *
+    }
+}
+

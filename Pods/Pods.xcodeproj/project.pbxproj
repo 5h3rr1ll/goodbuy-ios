@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		03C17F9C6DDEF739822C8ED582758FCC /* ScanditBarcodeCapture */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B26CAC2524111085C6A246EFC66235E7 /* Build configuration list for PBXAggregateTarget "ScanditBarcodeCapture" */;
+			buildPhases = (
+			);
+			dependencies = (
+				84C186937C8789E2A35E8590D79DD9CD /* PBXTargetDependency */,
+			);
+			name = ScanditBarcodeCapture;
+		};
+		59A00F48D5AD2ECAC9E0B62F7205B6DA /* ScanditCaptureCore */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2F151D50569FF9E0A5B622C2ADC865AF /* Build configuration list for PBXAggregateTarget "ScanditCaptureCore" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = ScanditCaptureCore;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		43D34B8ACDE3B3D51746AC8EF1E50275 /* Pods-goodbuy-ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DB60B552D3C082AFBC786E325949B1 /* Pods-goodbuy-ios-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D80E4F258835A6660E683B7446A37AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59A00F48D5AD2ECAC9E0B62F7205B6DA;
+			remoteInfo = ScanditCaptureCore;
+		};
+		3C2D8B6F41E4C5091E08015E6FDF70D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03C17F9C6DDEF739822C8ED582758FCC;
+			remoteInfo = ScanditBarcodeCapture;
+		};
+		496CE02BA890ED50CC22C4EBCA18A392 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59A00F48D5AD2ECAC9E0B62F7205B6DA;
+			remoteInfo = ScanditCaptureCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01A700FFA2185697DB5AE7F002EE86C6 /* SDCBarcodeCaptureSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCBarcodeCaptureSettings.h; path = ScanditBarcodeCapture.framework/Headers/SDCBarcodeCaptureSettings.h; sourceTree = "<group>"; };
+		07060702A7CE9B6ED708C0F781CF5880 /* SDCBarcodeTracking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCBarcodeTracking.h; path = ScanditBarcodeCapture.framework/Headers/SDCBarcodeTracking.h; sourceTree = "<group>"; };
+		076EA4811DDC076E3C173693E5218CE2 /* Pods-goodbuy-ios-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-goodbuy-ios-acknowledgements.markdown"; sourceTree = "<group>"; };
+		08AEA184C8D116F961922638565C067F /* SDCDataCaptureOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCDataCaptureOverlay.h; path = ScanditCaptureCore.framework/Headers/SDCDataCaptureOverlay.h; sourceTree = "<group>"; };
+		0BC32562A7C47EAE482182797743EED6 /* SDCSound.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCSound.h; path = ScanditCaptureCore.framework/Headers/SDCSound.h; sourceTree = "<group>"; };
+		0C6842BBF61A84F14AC0E4E88C2E8FE3 /* SDCBarcodeTrackingSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCBarcodeTrackingSession.h; path = ScanditBarcodeCapture.framework/Headers/SDCBarcodeTrackingSession.h; sourceTree = "<group>"; };
+		0FF586CC752AAE45653CF1C32673F9DC /* SDCSymbologyDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCSymbologyDescription.h; path = ScanditBarcodeCapture.framework/Headers/SDCSymbologyDescription.h; sourceTree = "<group>"; };
+		110AF37BC84C1E37535E01F8C361BF16 /* SDCViewfinder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCViewfinder.h; path = ScanditCaptureCore.framework/Headers/SDCViewfinder.h; sourceTree = "<group>"; };
+		149A7FB417D958D4FABDDB966A2AA6B4 /* SDCDataCaptureContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCDataCaptureContext.h; path = ScanditCaptureCore.framework/Headers/SDCDataCaptureContext.h; sourceTree = "<group>"; };
+		16710086870E47647AA0E06CB4A6B0A1 /* SDCDataCaptureContextDeserializerResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCDataCaptureContextDeserializerResult.h; path = ScanditCaptureCore.framework/Headers/SDCDataCaptureContextDeserializerResult.h; sourceTree = "<group>"; };
+		23F49AB75004B083DEA21C3F2E4363A5 /* SDCDataCaptureContextDeserializerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCDataCaptureContextDeserializerDelegate.h; path = ScanditCaptureCore.framework/Headers/SDCDataCaptureContextDeserializerDelegate.h; sourceTree = "<group>"; };
+		2A0A9832AD18F3A7871B4DA2F846EA7D /* SDCDataCaptureContextDeserializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCDataCaptureContextDeserializer.h; path = ScanditCaptureCore.framework/Headers/SDCDataCaptureContextDeserializer.h; sourceTree = "<group>"; };
+		3173AB6598D1F726E0172CCADEFD6840 /* SDCDataCaptureViewDeserializerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCDataCaptureViewDeserializerDelegate.h; path = ScanditCaptureCore.framework/Headers/SDCDataCaptureViewDeserializerDelegate.h; sourceTree = "<group>"; };
+		33D1BFFC26FE0E225FD728CDDB903618 /* SDCSymbologySettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCSymbologySettings.h; path = ScanditBarcodeCapture.framework/Headers/SDCSymbologySettings.h; sourceTree = "<group>"; };
+		3BCA19FC73C52EB82779C18E041393F8 /* SDCCameraSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCCameraSettings.h; path = ScanditCaptureCore.framework/Headers/SDCCameraSettings.h; sourceTree = "<group>"; };
+		46424B869DFCB70DCA566FE0491AB1B1 /* SDCEncodingRange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCEncodingRange.h; path = ScanditCaptureCore.framework/Headers/SDCEncodingRange.h; sourceTree = "<group>"; };
+		46498D6C72CD5677286C2007DD39D064 /* SDCSymbology.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCSymbology.h; path = ScanditBarcodeCapture.framework/Headers/SDCSymbology.h; sourceTree = "<group>"; };
+		4D10F61955FB5E2096EBE202C02273ED /* SDCDataCaptureVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCDataCaptureVersion.h; path = ScanditCaptureCore.framework/Headers/SDCDataCaptureVersion.h; sourceTree = "<group>"; };
+		5A72C7D83BEB3A25CC9DCD3428D72923 /* SDCLocalizedOnlyBarcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCLocalizedOnlyBarcode.h; path = ScanditBarcodeCapture.framework/Headers/SDCLocalizedOnlyBarcode.h; sourceTree = "<group>"; };
+		5A7CFAF403226B80FFC891EE765FB824 /* Pods-goodbuy-ios-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-goodbuy-ios-frameworks.sh"; sourceTree = "<group>"; };
+		5B2D859BD6CB6E4BF93E20FB8DCA3E23 /* SDCDataCaptureViewDeserializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCDataCaptureViewDeserializer.h; path = ScanditCaptureCore.framework/Headers/SDCDataCaptureViewDeserializer.h; sourceTree = "<group>"; };
+		5D07E9BA058080D1CC3C73888D99D10D /* SDCDataCaptureView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCDataCaptureView.h; path = ScanditCaptureCore.framework/Headers/SDCDataCaptureView.h; sourceTree = "<group>"; };
+		5DA6F16707EFF06CCF3835CC8135F605 /* SDCDataCaptureModeDeserializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCDataCaptureModeDeserializer.h; path = ScanditCaptureCore.framework/Headers/SDCDataCaptureModeDeserializer.h; sourceTree = "<group>"; };
+		5E6116CB0AB74D53925D1CF114B18CC0 /* SDCFrameData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCFrameData.h; path = ScanditCaptureCore.framework/Headers/SDCFrameData.h; sourceTree = "<group>"; };
+		5EFB9E187E58A40F565C8E2A2E1C0B8B /* SDCJSONValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCJSONValue.h; path = ScanditCaptureCore.framework/Headers/SDCJSONValue.h; sourceTree = "<group>"; };
+		64B684749E2F30F18ACDF902F913689A /* SDCLaserlineViewfinder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCLaserlineViewfinder.h; path = ScanditCaptureCore.framework/Headers/SDCLaserlineViewfinder.h; sourceTree = "<group>"; };
+		658E8800EA0CE0E6DB2E8638BE4BBC73 /* SDCDirection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCDirection.h; path = ScanditCaptureCore.framework/Headers/SDCDirection.h; sourceTree = "<group>"; };
+		661B3084180740886E0CD3757250E1E7 /* ScanditBarcodeCapture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScanditBarcodeCapture.debug.xcconfig; sourceTree = "<group>"; };
+		68DB60B552D3C082AFBC786E325949B1 /* Pods-goodbuy-ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-goodbuy-ios-dummy.m"; sourceTree = "<group>"; };
+		69988A1D0DE3DA006F0B177F432F0469 /* ScanditCaptureCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScanditCaptureCore.debug.xcconfig; sourceTree = "<group>"; };
+		6EAEFC806E5BE69891C79F93C2D96D7F /* SDCBarcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCBarcode.h; path = ScanditBarcodeCapture.framework/Headers/SDCBarcode.h; sourceTree = "<group>"; };
+		75B8044D3647A9A36542A8D867B3832D /* SDCTorchSwitchControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCTorchSwitchControl.h; path = ScanditCaptureCore.framework/Headers/SDCTorchSwitchControl.h; sourceTree = "<group>"; };
+		7A1D345AA1C9C725E339F7D11F117F99 /* ScanditCaptureCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScanditCaptureCore.release.xcconfig; sourceTree = "<group>"; };
+		7B73AE9DDAEE8DFC999EFCF53BA2A82B /* SDCSpotlightViewfinder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCSpotlightViewfinder.h; path = ScanditCaptureCore.framework/Headers/SDCSpotlightViewfinder.h; sourceTree = "<group>"; };
+		86DD779B813D30B2BEAF53DA6268DFEF /* SDCBarcodeTrackingSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCBarcodeTrackingSettings.h; path = ScanditBarcodeCapture.framework/Headers/SDCBarcodeTrackingSettings.h; sourceTree = "<group>"; };
+		8AE916A38275F8375A7FEBF1CFA9150A /* SDCBarcodeCaptureOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCBarcodeCaptureOverlay.h; path = ScanditBarcodeCapture.framework/Headers/SDCBarcodeCaptureOverlay.h; sourceTree = "<group>"; };
+		91BC416A7122CC165A0470413616D107 /* ScanditBarcodeCapture.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ScanditBarcodeCapture.framework; sourceTree = "<group>"; };
+		98FE0097FAAF8169D977438E04B70322 /* SDCLocationSelection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCLocationSelection.h; path = ScanditCaptureCore.framework/Headers/SDCLocationSelection.h; sourceTree = "<group>"; };
+		9A534252372BFB4939296F348896C1F9 /* SDCAnchor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCAnchor.h; path = ScanditCaptureCore.framework/Headers/SDCAnchor.h; sourceTree = "<group>"; };
+		9D365B3EB4089CF1B4F4EC4A9B33BF04 /* SDCBarcodeCaptureSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCBarcodeCaptureSession.h; path = ScanditBarcodeCapture.framework/Headers/SDCBarcodeCaptureSession.h; sourceTree = "<group>"; };
+		9D896BAC1600765DE78F190F03688AB1 /* SDCFrameSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCFrameSource.h; path = ScanditCaptureCore.framework/Headers/SDCFrameSource.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F5C92599D4FE39C75775F92D8FCF71C /* SDCBarcodeCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCBarcodeCapture.h; path = ScanditBarcodeCapture.framework/Headers/SDCBarcodeCapture.h; sourceTree = "<group>"; };
+		A170DFE126BF05374D261BBCE32CE4AB /* SDCBarcodeCaptureDeserializerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCBarcodeCaptureDeserializerDelegate.h; path = ScanditBarcodeCapture.framework/Headers/SDCBarcodeCaptureDeserializerDelegate.h; sourceTree = "<group>"; };
+		A3CE400C1917CDA57A31C35B4C01FFA5 /* SDCBarcodeCaptureDeserializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCBarcodeCaptureDeserializer.h; path = ScanditBarcodeCapture.framework/Headers/SDCBarcodeCaptureDeserializer.h; sourceTree = "<group>"; };
+		A420C3E235F3BDBD0491D0AF70D03BDF /* SDCColorUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCColorUtilities.h; path = ScanditCaptureCore.framework/Headers/SDCColorUtilities.h; sourceTree = "<group>"; };
+		A47447FFE7B6FD30EDC5578C52B9B250 /* SDCVibration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCVibration.h; path = ScanditCaptureCore.framework/Headers/SDCVibration.h; sourceTree = "<group>"; };
+		AAD6D4D30070CCAFBC3E362267D39A81 /* SDCBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCBase.h; path = ScanditCaptureCore.framework/Headers/SDCBase.h; sourceTree = "<group>"; };
+		AC3FA9CAC772BFD1F5E00F910A786C73 /* ScanditBarcodeCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ScanditBarcodeCapture.h; path = ScanditBarcodeCapture.framework/Headers/ScanditBarcodeCapture.h; sourceTree = "<group>"; };
+		AC5B72D5A3950631A93E397FFE4D5E12 /* SDCBrush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCBrush.h; path = ScanditCaptureCore.framework/Headers/SDCBrush.h; sourceTree = "<group>"; };
+		AD6CB82061B8A27E2D96F815E4C91434 /* SDCDataCaptureMode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCDataCaptureMode.h; path = ScanditCaptureCore.framework/Headers/SDCDataCaptureMode.h; sourceTree = "<group>"; };
+		AE038A38B743925FAA8CBD3B5720CC4A /* Pods-goodbuy-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-goodbuy-ios.release.xcconfig"; sourceTree = "<group>"; };
+		AEE8BF0BDBFE9F1E360996CC22B1529D /* SDCFeedback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCFeedback.h; path = ScanditCaptureCore.framework/Headers/SDCFeedback.h; sourceTree = "<group>"; };
+		B15A9C90903F541F0F67C0AF047B7D4E /* SDCContextStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCContextStatus.h; path = ScanditCaptureCore.framework/Headers/SDCContextStatus.h; sourceTree = "<group>"; };
+		B2297280F6F03190CE532B498F348598 /* SDCQuadrilateral.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCQuadrilateral.h; path = ScanditCaptureCore.framework/Headers/SDCQuadrilateral.h; sourceTree = "<group>"; };
+		B2702FFAA4FEA0F1507BF0E1CAA4B38C /* SDCCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCCamera.h; path = ScanditCaptureCore.framework/Headers/SDCCamera.h; sourceTree = "<group>"; };
+		B335109FB37983CEC800956E45FD57C5 /* SDCFrameSourceDeserializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCFrameSourceDeserializer.h; path = ScanditCaptureCore.framework/Headers/SDCFrameSourceDeserializer.h; sourceTree = "<group>"; };
+		C1B6A4840F6CEA999A6B421DF9A6D232 /* SDCBarcodeTrackingDeserializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCBarcodeTrackingDeserializer.h; path = ScanditBarcodeCapture.framework/Headers/SDCBarcodeTrackingDeserializer.h; sourceTree = "<group>"; };
+		C1C345E39A73E08999D8F15538521D38 /* libPods-goodbuy-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-goodbuy-ios.a"; path = "libPods-goodbuy-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFEE6DDD406857AE911F81C5F7392B2A /* SDCControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCControl.h; path = ScanditCaptureCore.framework/Headers/SDCControl.h; sourceTree = "<group>"; };
+		DB02C5364D0CF1FCA391DCF653C10656 /* SDCBarcodeTrackingAdvancedOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCBarcodeTrackingAdvancedOverlay.h; path = ScanditBarcodeCapture.framework/Headers/SDCBarcodeTrackingAdvancedOverlay.h; sourceTree = "<group>"; };
+		E0343B711AA18B9419F53B081C879F1F /* SDCTrackedBarcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCTrackedBarcode.h; path = ScanditBarcodeCapture.framework/Headers/SDCTrackedBarcode.h; sourceTree = "<group>"; };
+		E07D6A61D3110B7FB889E55C15FAEA98 /* ScanditBarcodeCapture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScanditBarcodeCapture.release.xcconfig; sourceTree = "<group>"; };
+		E15B92DBAAF5D10351ED8BBA9786B577 /* SDCBarcodeCaptureFeedback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCBarcodeCaptureFeedback.h; path = ScanditBarcodeCapture.framework/Headers/SDCBarcodeCaptureFeedback.h; sourceTree = "<group>"; };
+		E42A363D8E6C238BBC30DF58E20D9A75 /* SDCBarcodeTrackingBasicOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCBarcodeTrackingBasicOverlay.h; path = ScanditBarcodeCapture.framework/Headers/SDCBarcodeTrackingBasicOverlay.h; sourceTree = "<group>"; };
+		EF1884B23D00DAD31DF717EA33E3C195 /* ScanditCaptureCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ScanditCaptureCore.framework; sourceTree = "<group>"; };
+		EF763641BAD7D7E62255624A0F89C99B /* SDCBarcodeTrackingDeserializerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCBarcodeTrackingDeserializerDelegate.h; path = ScanditBarcodeCapture.framework/Headers/SDCBarcodeTrackingDeserializerDelegate.h; sourceTree = "<group>"; };
+		F082EA189FE9C7B75DFFF2A2A5219C77 /* ScanditCaptureCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ScanditCaptureCore.h; path = ScanditCaptureCore.framework/Headers/ScanditCaptureCore.h; sourceTree = "<group>"; };
+		F467C9248B1D69E7FD241A50095F9C47 /* SDCFrameSourceDeserializerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCFrameSourceDeserializerDelegate.h; path = ScanditCaptureCore.framework/Headers/SDCFrameSourceDeserializerDelegate.h; sourceTree = "<group>"; };
+		F599EFA0F0A8FFDF5B6F13AD0EBF885C /* Pods-goodbuy-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-goodbuy-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		F8A973ABA31ABA65239DD3ED0548FDA8 /* SDCRectangularViewfinder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCRectangularViewfinder.h; path = ScanditCaptureCore.framework/Headers/SDCRectangularViewfinder.h; sourceTree = "<group>"; };
+		FA8E5FA044B0A9ADE1F0D96A6B07689E /* SDCSizeWithUnitAndAspect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCSizeWithUnitAndAspect.h; path = ScanditCaptureCore.framework/Headers/SDCSizeWithUnitAndAspect.h; sourceTree = "<group>"; };
+		FAA63CD3E66533F55490245144A369CC /* Pods-goodbuy-ios-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-goodbuy-ios-acknowledgements.plist"; sourceTree = "<group>"; };
+		FF0AAFF31C751466C52AD7FC0EB83024 /* SDCMeasureUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDCMeasureUnit.h; path = ScanditCaptureCore.framework/Headers/SDCMeasureUnit.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7FD8F3839C07CA53FB8AF874B14049A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		107B1211A6FD06D04A0A9208AE62FB63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1C345E39A73E08999D8F15538521D38 /* libPods-goodbuy-ios.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10CA2211DEE7C6B0FF9546675ADC8BEE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9E31943DDAC0390BC5CFDB8EFD59802 /* Pods-goodbuy-ios */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		41E43BD530EEEF21C04E2639B6045E9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF1884B23D00DAD31DF717EA33E3C195 /* ScanditCaptureCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48BE718405A13C50A6CBA2420D861340 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63ECD82A8121A57840ED25F04809F3AD /* ScanditBarcodeCapture */,
+				935B8DC10784D3D69F8608A22CC8CDA6 /* ScanditCaptureCore */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		63ECD82A8121A57840ED25F04809F3AD /* ScanditBarcodeCapture */ = {
+			isa = PBXGroup;
+			children = (
+				AC3FA9CAC772BFD1F5E00F910A786C73 /* ScanditBarcodeCapture.h */,
+				6EAEFC806E5BE69891C79F93C2D96D7F /* SDCBarcode.h */,
+				9F5C92599D4FE39C75775F92D8FCF71C /* SDCBarcodeCapture.h */,
+				A3CE400C1917CDA57A31C35B4C01FFA5 /* SDCBarcodeCaptureDeserializer.h */,
+				A170DFE126BF05374D261BBCE32CE4AB /* SDCBarcodeCaptureDeserializerDelegate.h */,
+				E15B92DBAAF5D10351ED8BBA9786B577 /* SDCBarcodeCaptureFeedback.h */,
+				8AE916A38275F8375A7FEBF1CFA9150A /* SDCBarcodeCaptureOverlay.h */,
+				9D365B3EB4089CF1B4F4EC4A9B33BF04 /* SDCBarcodeCaptureSession.h */,
+				01A700FFA2185697DB5AE7F002EE86C6 /* SDCBarcodeCaptureSettings.h */,
+				07060702A7CE9B6ED708C0F781CF5880 /* SDCBarcodeTracking.h */,
+				DB02C5364D0CF1FCA391DCF653C10656 /* SDCBarcodeTrackingAdvancedOverlay.h */,
+				E42A363D8E6C238BBC30DF58E20D9A75 /* SDCBarcodeTrackingBasicOverlay.h */,
+				C1B6A4840F6CEA999A6B421DF9A6D232 /* SDCBarcodeTrackingDeserializer.h */,
+				EF763641BAD7D7E62255624A0F89C99B /* SDCBarcodeTrackingDeserializerDelegate.h */,
+				0C6842BBF61A84F14AC0E4E88C2E8FE3 /* SDCBarcodeTrackingSession.h */,
+				86DD779B813D30B2BEAF53DA6268DFEF /* SDCBarcodeTrackingSettings.h */,
+				5A72C7D83BEB3A25CC9DCD3428D72923 /* SDCLocalizedOnlyBarcode.h */,
+				46498D6C72CD5677286C2007DD39D064 /* SDCSymbology.h */,
+				0FF586CC752AAE45653CF1C32673F9DC /* SDCSymbologyDescription.h */,
+				33D1BFFC26FE0E225FD728CDDB903618 /* SDCSymbologySettings.h */,
+				E0343B711AA18B9419F53B081C879F1F /* SDCTrackedBarcode.h */,
+				A7B38479711E1AC9AD9EE24ECDC24D02 /* Frameworks */,
+				F6897E0B0F4EF535B5C0B810017960EE /* Support Files */,
+			);
+			name = ScanditBarcodeCapture;
+			path = ScanditBarcodeCapture;
+			sourceTree = "<group>";
+		};
+		788B5FE111433F8BF4903D8E787040FB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				69988A1D0DE3DA006F0B177F432F0469 /* ScanditCaptureCore.debug.xcconfig */,
+				7A1D345AA1C9C725E339F7D11F117F99 /* ScanditCaptureCore.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ScanditCaptureCore";
+			sourceTree = "<group>";
+		};
+		935B8DC10784D3D69F8608A22CC8CDA6 /* ScanditCaptureCore */ = {
+			isa = PBXGroup;
+			children = (
+				F082EA189FE9C7B75DFFF2A2A5219C77 /* ScanditCaptureCore.h */,
+				9A534252372BFB4939296F348896C1F9 /* SDCAnchor.h */,
+				AAD6D4D30070CCAFBC3E362267D39A81 /* SDCBase.h */,
+				AC5B72D5A3950631A93E397FFE4D5E12 /* SDCBrush.h */,
+				B2702FFAA4FEA0F1507BF0E1CAA4B38C /* SDCCamera.h */,
+				3BCA19FC73C52EB82779C18E041393F8 /* SDCCameraSettings.h */,
+				A420C3E235F3BDBD0491D0AF70D03BDF /* SDCColorUtilities.h */,
+				B15A9C90903F541F0F67C0AF047B7D4E /* SDCContextStatus.h */,
+				CFEE6DDD406857AE911F81C5F7392B2A /* SDCControl.h */,
+				149A7FB417D958D4FABDDB966A2AA6B4 /* SDCDataCaptureContext.h */,
+				2A0A9832AD18F3A7871B4DA2F846EA7D /* SDCDataCaptureContextDeserializer.h */,
+				23F49AB75004B083DEA21C3F2E4363A5 /* SDCDataCaptureContextDeserializerDelegate.h */,
+				16710086870E47647AA0E06CB4A6B0A1 /* SDCDataCaptureContextDeserializerResult.h */,
+				AD6CB82061B8A27E2D96F815E4C91434 /* SDCDataCaptureMode.h */,
+				5DA6F16707EFF06CCF3835CC8135F605 /* SDCDataCaptureModeDeserializer.h */,
+				08AEA184C8D116F961922638565C067F /* SDCDataCaptureOverlay.h */,
+				4D10F61955FB5E2096EBE202C02273ED /* SDCDataCaptureVersion.h */,
+				5D07E9BA058080D1CC3C73888D99D10D /* SDCDataCaptureView.h */,
+				5B2D859BD6CB6E4BF93E20FB8DCA3E23 /* SDCDataCaptureViewDeserializer.h */,
+				3173AB6598D1F726E0172CCADEFD6840 /* SDCDataCaptureViewDeserializerDelegate.h */,
+				658E8800EA0CE0E6DB2E8638BE4BBC73 /* SDCDirection.h */,
+				46424B869DFCB70DCA566FE0491AB1B1 /* SDCEncodingRange.h */,
+				AEE8BF0BDBFE9F1E360996CC22B1529D /* SDCFeedback.h */,
+				5E6116CB0AB74D53925D1CF114B18CC0 /* SDCFrameData.h */,
+				9D896BAC1600765DE78F190F03688AB1 /* SDCFrameSource.h */,
+				B335109FB37983CEC800956E45FD57C5 /* SDCFrameSourceDeserializer.h */,
+				F467C9248B1D69E7FD241A50095F9C47 /* SDCFrameSourceDeserializerDelegate.h */,
+				5EFB9E187E58A40F565C8E2A2E1C0B8B /* SDCJSONValue.h */,
+				64B684749E2F30F18ACDF902F913689A /* SDCLaserlineViewfinder.h */,
+				98FE0097FAAF8169D977438E04B70322 /* SDCLocationSelection.h */,
+				FF0AAFF31C751466C52AD7FC0EB83024 /* SDCMeasureUnit.h */,
+				B2297280F6F03190CE532B498F348598 /* SDCQuadrilateral.h */,
+				F8A973ABA31ABA65239DD3ED0548FDA8 /* SDCRectangularViewfinder.h */,
+				FA8E5FA044B0A9ADE1F0D96A6B07689E /* SDCSizeWithUnitAndAspect.h */,
+				0BC32562A7C47EAE482182797743EED6 /* SDCSound.h */,
+				7B73AE9DDAEE8DFC999EFCF53BA2A82B /* SDCSpotlightViewfinder.h */,
+				75B8044D3647A9A36542A8D867B3832D /* SDCTorchSwitchControl.h */,
+				A47447FFE7B6FD30EDC5578C52B9B250 /* SDCVibration.h */,
+				110AF37BC84C1E37535E01F8C361BF16 /* SDCViewfinder.h */,
+				41E43BD530EEEF21C04E2639B6045E9D /* Frameworks */,
+				788B5FE111433F8BF4903D8E787040FB /* Support Files */,
+			);
+			name = ScanditCaptureCore;
+			path = ScanditCaptureCore;
+			sourceTree = "<group>";
+		};
+		A7B38479711E1AC9AD9EE24ECDC24D02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91BC416A7122CC165A0470413616D107 /* ScanditBarcodeCapture.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9E31943DDAC0390BC5CFDB8EFD59802 /* Pods-goodbuy-ios */ = {
+			isa = PBXGroup;
+			children = (
+				076EA4811DDC076E3C173693E5218CE2 /* Pods-goodbuy-ios-acknowledgements.markdown */,
+				FAA63CD3E66533F55490245144A369CC /* Pods-goodbuy-ios-acknowledgements.plist */,
+				68DB60B552D3C082AFBC786E325949B1 /* Pods-goodbuy-ios-dummy.m */,
+				5A7CFAF403226B80FFC891EE765FB824 /* Pods-goodbuy-ios-frameworks.sh */,
+				F599EFA0F0A8FFDF5B6F13AD0EBF885C /* Pods-goodbuy-ios.debug.xcconfig */,
+				AE038A38B743925FAA8CBD3B5720CC4A /* Pods-goodbuy-ios.release.xcconfig */,
+			);
+			name = "Pods-goodbuy-ios";
+			path = "Target Support Files/Pods-goodbuy-ios";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				48BE718405A13C50A6CBA2420D861340 /* Pods */,
+				107B1211A6FD06D04A0A9208AE62FB63 /* Products */,
+				10CA2211DEE7C6B0FF9546675ADC8BEE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6897E0B0F4EF535B5C0B810017960EE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				661B3084180740886E0CD3757250E1E7 /* ScanditBarcodeCapture.debug.xcconfig */,
+				E07D6A61D3110B7FB889E55C15FAEA98 /* ScanditBarcodeCapture.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ScanditBarcodeCapture";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		46D52CA210341EAC74D2A271CB7D4B6E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		498ADFE520FE8329C92831F4C911C399 /* Pods-goodbuy-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DC93C7FE2A8530ADDB6B714203DAC19 /* Build configuration list for PBXNativeTarget "Pods-goodbuy-ios" */;
+			buildPhases = (
+				46D52CA210341EAC74D2A271CB7D4B6E /* Headers */,
+				A1E075DBC3D4C39694E79883C48E736F /* Sources */,
+				D7FD8F3839C07CA53FB8AF874B14049A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCD3422984C903BBC435C5B45E196A3B /* PBXTargetDependency */,
+				82AD01F8F0D1CA36A2D2B6BD261A1369 /* PBXTargetDependency */,
+			);
+			name = "Pods-goodbuy-ios";
+			productName = "Pods-goodbuy-ios";
+			productReference = C1C345E39A73E08999D8F15538521D38 /* libPods-goodbuy-ios.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 107B1211A6FD06D04A0A9208AE62FB63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				498ADFE520FE8329C92831F4C911C399 /* Pods-goodbuy-ios */,
+				03C17F9C6DDEF739822C8ED582758FCC /* ScanditBarcodeCapture */,
+				59A00F48D5AD2ECAC9E0B62F7205B6DA /* ScanditCaptureCore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1E075DBC3D4C39694E79883C48E736F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D34B8ACDE3B3D51746AC8EF1E50275 /* Pods-goodbuy-ios-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82AD01F8F0D1CA36A2D2B6BD261A1369 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ScanditCaptureCore;
+			target = 59A00F48D5AD2ECAC9E0B62F7205B6DA /* ScanditCaptureCore */;
+			targetProxy = 0D80E4F258835A6660E683B7446A37AD /* PBXContainerItemProxy */;
+		};
+		84C186937C8789E2A35E8590D79DD9CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ScanditCaptureCore;
+			target = 59A00F48D5AD2ECAC9E0B62F7205B6DA /* ScanditCaptureCore */;
+			targetProxy = 496CE02BA890ED50CC22C4EBCA18A392 /* PBXContainerItemProxy */;
+		};
+		FCD3422984C903BBC435C5B45E196A3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ScanditBarcodeCapture;
+			target = 03C17F9C6DDEF739822C8ED582758FCC /* ScanditBarcodeCapture */;
+			targetProxy = 3C2D8B6F41E4C5091E08015E6FDF70D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A09E9AB51210557C545E81B64BF4C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F599EFA0F0A8FFDF5B6F13AD0EBF885C /* Pods-goodbuy-ios.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C73BDAC02BF6A4D61D6D97D384D8842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4042C50F821205523FC5AF5266E8587C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE038A38B743925FAA8CBD3B5720CC4A /* Pods-goodbuy-ios.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55120F2C9A1F8A2BEA45D2E23AD7CB65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A1D345AA1C9C725E339F7D11F117F99 /* ScanditCaptureCore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB09B621ED251839D4FA17E44F361111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B1EF44CB9D5FBB6B6F189FBDB478253B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E07D6A61D3110B7FB889E55C15FAEA98 /* ScanditBarcodeCapture.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5071B169A3B11FB3EE4349690205BF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69988A1D0DE3DA006F0B177F432F0469 /* ScanditCaptureCore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF609BFDA9CEC2AE62804CCC04174C9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 661B3084180740886E0CD3757250E1E7 /* ScanditBarcodeCapture.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DC93C7FE2A8530ADDB6B714203DAC19 /* Build configuration list for PBXNativeTarget "Pods-goodbuy-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A09E9AB51210557C545E81B64BF4C8B /* Debug */,
+				4042C50F821205523FC5AF5266E8587C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F151D50569FF9E0A5B622C2ADC865AF /* Build configuration list for PBXAggregateTarget "ScanditCaptureCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5071B169A3B11FB3EE4349690205BF7 /* Debug */,
+				55120F2C9A1F8A2BEA45D2E23AD7CB65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB09B621ED251839D4FA17E44F361111 /* Debug */,
+				3C73BDAC02BF6A4D61D6D97D384D8842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B26CAC2524111085C6A246EFC66235E7 /* Build configuration list for PBXAggregateTarget "ScanditBarcodeCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF609BFDA9CEC2AE62804CCC04174C9D /* Debug */,
+				B1EF44CB9D5FBB6B6F189FBDB478253B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
